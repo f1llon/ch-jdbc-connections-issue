@@ -1,0 +1,210 @@
+[ForkJoinPool.commonPool-worker-17] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[main] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-9] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-23] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-31] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-19] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-13] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-3] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-27] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[ForkJoinPool.commonPool-worker-5] DEBUG com.clickhouse.client.AbstractClient - Connecting to: ClickHouseNode [uri=https://example.org:8443/default, options={compress=0,http_connection_provider=APACHE_HTTP_CLIENT,load_balancing_policy=roundRobin,max_open_connections=3,sslmode=STRICT}]@1406632118
+[main] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@49c43f4e
+[ForkJoinPool.commonPool-worker-3] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@340c8b98
+[ForkJoinPool.commonPool-worker-17] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@4b9777a5
+[ForkJoinPool.commonPool-worker-27] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@5d4a49c5
+[ForkJoinPool.commonPool-worker-23] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@669fab8a
+[ForkJoinPool.commonPool-worker-5] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@49ff458a
+[ForkJoinPool.commonPool-worker-19] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@1fa9fa00
+[ForkJoinPool.commonPool-worker-9] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@20395e11
+[ForkJoinPool.commonPool-worker-31] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@2468581
+[ForkJoinPool.commonPool-worker-13] DEBUG com.clickhouse.client.AbstractClient - Connection established: com.clickhouse.client.http.ApacheHttpConnectionImpl@87b7c7
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000005 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000007 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000010 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000006 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000003 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000009 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000002 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000008 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 0; route allocated: 0 of 3; total allocated: 0 of 3]
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000006 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000009 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000005 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000003 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000007 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000010 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000002 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000008 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000005 acquired ep-0000000001
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000006 acquired ep-0000000007
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000010 acquired ep-0000000009
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000002 acquired ep-0000000002
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000008 acquired ep-0000000008
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000004 acquired ep-0000000005
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000009 acquired ep-0000000003
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000001 acquired ep-0000000004
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000007 acquired ep-0000000006
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000003 acquired ep-0000000010
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000009 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000007 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000005 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000006 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000010 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000008 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connecting endpoint to https://example.org:8443 (5000 MILLISECONDS)
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connected http-outgoing-8
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connected http-outgoing-0
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000005 connected http-outgoing-2
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000010 connected http-outgoing-5
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 executing exchange ex-0000000002 over http-outgoing-8
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 executing exchange ex-0000000001 over http-outgoing-0
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000010 executing exchange ex-0000000003 over http-outgoing-5
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000005 executing exchange ex-0000000004 over http-outgoing-2
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connected http-outgoing-3
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000009 connected http-outgoing-7
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 executing exchange ex-0000000009 over http-outgoing-3
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connected http-outgoing-4
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 executing exchange ex-0000000005 over http-outgoing-4
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000009 executing exchange ex-0000000010 over http-outgoing-7
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000006 connected http-outgoing-6
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000007 connected http-outgoing-1
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000006 executing exchange ex-0000000007 over http-outgoing-6
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000007 executing exchange ex-0000000006 over http-outgoing-1
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000008 connected http-outgoing-9
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000008 executing exchange ex-0000000008 over http-outgoing-9
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 releasing endpoint
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000006 releasing endpoint
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000009 releasing endpoint
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connection http-outgoing-0 can be kept alive for 10 SECONDS
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000009 connection http-outgoing-7 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000006 connection http-outgoing-6 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000004 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000006 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000009 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000008 releasing endpoint
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000008 connection http-outgoing-9 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000008 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000010 releasing endpoint
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000010 connection http-outgoing-5 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000010 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000007 releasing endpoint
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000007 connection http-outgoing-1 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000007 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000005 releasing endpoint
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000005 connection http-outgoing-2 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000005 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 releasing endpoint
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection http-outgoing-8 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000002 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 releasing endpoint
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connection http-outgoing-3 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-4 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000003 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000016 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000011 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000012 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000011 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000017 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000011 acquired ep-0000000011
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000013 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000018 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000015 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000011 executing exchange ex-0000000011 over http-outgoing-4
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000013 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000020 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000015 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000017 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000012 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000016 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000014 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000016 acquired ep-0000000016
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000012 acquired ep-0000000015
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000020 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000017 acquired ep-0000000014
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000020 acquired ep-0000000017
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000015 acquired ep-0000000013
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000013 acquired ep-0000000012
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000015 executing exchange ex-0000000012 over http-outgoing-3
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000017 executing exchange ex-0000000020 over http-outgoing-5
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000019 endpoint lease request (3 MINUTES) [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000018 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000018 acquired ep-0000000018
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000012 executing exchange ex-0000000013 over http-outgoing-2
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000013 executing exchange ex-0000000015 over http-outgoing-1
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000018 executing exchange ex-0000000018 over http-outgoing-8
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000014 executing exchange ex-0000000017 over http-outgoing-7
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000014 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000016 executing exchange ex-0000000016 over http-outgoing-9
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000014 acquired ep-0000000019
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000019 endpoint leased [route: {s}->https://example.org:8443][total available: 0; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ex-0000000019 acquired ep-0000000020
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000019 executing exchange ex-0000000014 over http-outgoing-6
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000020 executing exchange ex-0000000019 over http-outgoing-0
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000017 releasing endpoint
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000017 connection http-outgoing-5 can be kept alive for 10 SECONDS
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000014 releasing endpoint
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000017 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000014 connection http-outgoing-7 can be kept alive for 10 SECONDS
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000014 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000013 releasing endpoint
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000013 connection http-outgoing-1 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000013 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000015 releasing endpoint
+[ForkJoinPool.commonPool-worker-5] INFO org.example.Main - ForkJoinPool.commonPool-worker-5: retrieved 1 row
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000015 connection http-outgoing-3 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000016 releasing endpoint
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000012 releasing endpoint
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000015 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000016 connection http-outgoing-9 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000012 connection http-outgoing-2 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-19] INFO org.example.Main - ForkJoinPool.commonPool-worker-19: retrieved 1 row
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000012 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-27] INFO org.example.Main - ForkJoinPool.commonPool-worker-27: retrieved 1 row
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000018 releasing endpoint
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000020 releasing endpoint
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000020 connection http-outgoing-0 can be kept alive for 10 SECONDS
+[main] INFO org.example.Main - main: retrieved 1 row
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-31] INFO org.example.Main - ForkJoinPool.commonPool-worker-31: retrieved 1 row
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000011 releasing endpoint
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000011 connection http-outgoing-4 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000011 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-17] INFO org.example.Main - ForkJoinPool.commonPool-worker-17: retrieved 1 row
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-27] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-17] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000016 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-19] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-9] INFO org.example.Main - ForkJoinPool.commonPool-worker-9: retrieved 1 row
+[ForkJoinPool.commonPool-worker-31] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000019 releasing endpoint
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000020 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000018 connection http-outgoing-8 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000019 connection http-outgoing-6 can be kept alive for 10 SECONDS
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000018 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-5] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000019 connection released [route: {s}->https://example.org:8443][total available: 1; route allocated: 1 of 3; total allocated: 1 of 3]
+[ForkJoinPool.commonPool-worker-3] INFO org.example.Main - ForkJoinPool.commonPool-worker-3: retrieved 1 row
+[ForkJoinPool.commonPool-worker-23] INFO org.example.Main - ForkJoinPool.commonPool-worker-23: retrieved 1 row
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-13] INFO org.example.Main - ForkJoinPool.commonPool-worker-13: retrieved 1 row
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-23] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-3] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-9] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Shutdown connection pool GRACEFUL
+[ForkJoinPool.commonPool-worker-13] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - Connection pool shut down
